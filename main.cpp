@@ -16,7 +16,7 @@ struct Person {
     int age;
     Address address;  
 
-    Person() : name("Illya"), age(14), address("Vinnitsa", "Independence Ave", 14) {
+    Person() : name("Illya"), age(14), address("Vinnitsa", "House Number", 10) {
         cout << "The Person constructor  no parameters" << endl;
     }
 
